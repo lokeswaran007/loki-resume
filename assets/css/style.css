@@ -347,3 +347,54 @@ footer p a {
     color:var(--primary);
 }
 
+
+
+@media only screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    
+        
+    }
+    header > * {
+        margin-bottom: 10px;
+    }
+    /* hero section */
+ section.hero-section{
+    flex-direction: column;
+    padding: 40px ;
+    padding-top: 150px;
+ }
+ section.hero-section img{
+    display: none;
+ }
+
+ /* .about-section */
+ section.about-section{
+    flex-direction: column;
+ }
+ .about-section-desc{
+    margin-left: 0;
+    margin-top: 30px;
+
+ }
+ /* my works */
+
+ .work-section{
+    padding: 30px 10px;
+ }
+ .work-section-items{
+    flex-direction: column;
+    align-items: center;
+
+ }
+ .work-setion-box{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right:0;
+ }
+ /* contact */
+ .Contact-section input,text{
+    width: 100%;
+ }
+
+}
