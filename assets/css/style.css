@@ -393,7 +393,7 @@ footer p a {
     margin-right:0;
  }
  /* contact */
- .Contact-section input,text{
+ .Contact-section form input,textarea{
     width: 100%;
  }
 
