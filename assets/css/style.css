@@ -15,8 +15,8 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family:"Kanit", sans-serif;
+body {
+    font-family: "Kanit", sans-serif;
 }
 
 header {
@@ -77,81 +77,97 @@ section.hero-section {
     background-color: var(--dark-primary);
     color: white;
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 20px 120px 0 150px;
 
 }
-.img-anime img{
+
+.img-anime img {
     margin-left: 380px;
 }
-.hero-img__title{
+
+.hero-img__title {
     font-size: 48px;
-    font-weight:600;
+    font-weight: 600;
 }
-.hero-img__title > span {
+
+.hero-img__title>span {
     color: var(--primary);
 }
-.hero-section__desc
-{
+
+.hero-section__desc {
     color: azure;
 }
-.social-icon{
+
+.social-icon {
     margin: 20px 0;
 }
-.social-icon li{
+
+.social-icon li {
     margin-right: 20px;
 }
-ul.social-icon{
+
+ul.social-icon {
     list-style: none;
     display: flex;
 }
-.social-icon li > a{
+
+.social-icon li>a {
     text-decoration: none;
-    color:white;
-}
-.social-icon li  a > i.fa-x-twitter:hover {
-    color: var(--primary);
-}
-.social-icon li  a > i.fa-instagram:hover {
-    color: #f09433;
-}
-.social-icon li  a > i.fa-linkedin:hover {
-    color:#0077B5 ;
+    color: white;
 }
 
-.btn{
+.social-icon li a>i.fa-x-twitter:hover {
+    color: var(--primary);
+}
+
+.social-icon li a>i.fa-instagram:hover {
+    color: #f09433;
+}
+
+.social-icon li a>i.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.btn {
     padding: 10px 20px;
     border-radius: 2px;
     border: none;
     cursor: pointer;
 }
-.btn.btn-primary{
+
+.btn.btn-primary {
     background-color: var(--primary);
     font-weight: 600;
-    color:black;
+    color: black;
 }
-.btn.btn-primary:hover{
+
+.btn.btn-primary:hover {
     background-color: #b4ffff;
 }
-.btn.dark-outline{
+
+.btn.dark-outline {
     background-color: var(--dark-primary);
     border: 1px solid var(--primary);
     color: var(--primary);
     border-radius: 5px;
     font-weight: 600;
-    box-shadow:3px 3px 3px var(--primary) ;
+    box-shadow: 3px 3px 3px var(--primary);
 }
-.btn.dark-outline:hover{
+
+.btn.dark-outline:hover {
     cursor: pointer;
     background-color: var(--primary);
-    color:black;
+    color: black;
 }
-.hero-buttons button{
-    margin:10px;
+
+.hero-buttons button {
+    margin: 10px;
     margin-left: 0;
 }
+
 /* AboutMe section */
-.about-section{
+.about-section {
     background-color: #22282f;
     color: white;
     padding: 60px;
@@ -160,104 +176,166 @@ ul.social-icon{
     align-items: center;
 
 }
+
 .about-section img {
-    width: 280px; 
-    border-radius: 50%;  
-    border: 4px solid var(--primary); 
-    box-shadow: 5px 5px  40px var(--primary);
+    width: 280px;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    box-shadow: 5px 5px 40px var(--primary);
 }
-.about-section-desc{
+
+.about-section-desc {
     margin-left: 100px;
-    
-    
+
+
 }
-.about-section-desc h4{
+
+.about-section-desc h4 {
     font-size: 25px;
     font-weight: 900;
 }
 
-.about-section-desc ul{
+.about-section-desc ul {
     list-style: none;
     margin-top: 15px;
     margin-bottom: 20px;
 
 }
-.about-section-desc li{
+
+.about-section-desc li {
     margin-bottom: 10px;
     color: gray;
     font-weight: bold;
 }
-.about-section-desc li > a{
+
+.about-section-desc li>a {
     text-decoration: none;
-    color:gray ;
+    color: gray;
 }
-.about-section-desc li > a:hover{
+
+.about-section-desc li>a:hover {
     color: var(--primary);
 }
-.about-section-desc li>strong{
+
+.about-section-desc li>strong {
     color: white;
 }
-.about-section-desc h4 span{
+
+.about-section-desc h4 span {
     color: var(--primary);
 }
 
 /* work section  */
 
-.work-section{
-    background-color:var(--dark-primary);
+.work-section {
+    background-color: var(--dark-primary);
     color: white;
     padding: 60px;
     text-align: center;
 }
-.work-section-tittle{
+
+.work-section-tittle {
     font-size: 30px;
     font-weight: 900;
     margin-bottom: 50px;
 }
-.work-section-tittle span{
+
+.work-section-tittle span {
     color: var(--primary);
 }
-.work-section-items{
+
+.work-section-items {
     display: flex;
     justify-content: center;
 }
 
-.work-setion-box{
+.work-setion-box {
     background-color: #22282f;
-    padding: 30px ;
+    padding: 30px;
     max-width: 310px;
     min-width: 310px;
     text-align: left;
     border-radius: 20px;
     cursor: pointer;
-    margin:0 20px;
+    margin: 0 20px;
 }
-.work-setion-box:hover{
+
+.work-setion-box:hover {
     background-color: #161b22;
-    
+
 }
-.work-setion-box p{
+
+.work-setion-box p {
     color: gray;
     font-size: 14px;
 }
-.work-setion-box a{
+
+.work-setion-box a {
     text-decoration: none;
     color: #f0be33;
 }
-.work-section-box-desc{
-     margin-top: 30px;
+
+.work-section-box-desc {
+    margin-top: 30px;
     margin-bottom: 10px;
 }
-.work-section-box-desc p{
+
+.work-section-box-desc p {
     padding-top: 10px;
 }
-.work-section-box-icon{
+
+.work-section-box-icon {
     background-color: var(--primary);
     width: auto;
     padding: 10px;
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.work-section-box-icon:hover{
+
+.work-section-box-icon:hover {
     background-color: rgb(18, 116, 207);
 }
+
+/* Contact CSS */
+.Contact-section {
+    background-color:rgb(19, 21, 26);
+    padding: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.Contact-section h4 {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 900;
+}
+
+.Contact-section h4 span {
+    color: var(--primary);
+}
+
+.Contact-section form input,textarea{
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+    resize: none;
+    font-family:"Kanit", sans-serif;
+}
+footer{
+    background-color: var(--dark-primary);
+    color:white ;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+
+}
+
+footer p a {
+    text-decoration:none;
+    color:var(--primary);
+}
+
