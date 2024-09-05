@@ -85,13 +85,14 @@ section.hero-section {
     color: white;
     display: flex;
     align-items: center;
-    padding: 50px 120px 0 150px;
+    padding: 150px 10px 0 150px;
     
 
 }
 
 .img-anime img {
-    margin-left: 380px;
+    /* padding-left: 100px; */
+    /* padding-top:100px ; */
     margin-bottom:-4px;
 }
 
@@ -108,7 +109,7 @@ section.hero-section {
 .hero-section__desc {
     color: azure;
     text-align: justify;
-    width:258%;
+    width:100%;
 }
 
 .social-icon {
@@ -371,6 +372,11 @@ footer p a {
  section.hero-section img{
     display: none;
  }
+ .hero-section__desc {
+    color: azure;
+    text-align: justify;
+    width:100%;
+}
 
  /* .about-section */
  section.about-section{
