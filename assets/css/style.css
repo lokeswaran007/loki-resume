@@ -85,7 +85,7 @@ section.hero-section {
     color: white;
     display: flex;
     align-items: center;
-    padding: 150px 10px 0 150px;
+    padding: 150px 10px 50px 150px;
     
 
 }
@@ -93,7 +93,11 @@ section.hero-section {
 .img-anime img {
     /* padding-left: 100px; */
     /* padding-top:100px ; */
-    margin-bottom:-4px;
+    margin-bottom:30px;
+    width: 180px;
+    border-radius: 5%;
+    border: 4px solid var(--primary);
+    box-shadow: 3px 3px 25px var(--primary);
 }
 
 .hero-img__title {
@@ -109,7 +113,7 @@ section.hero-section {
 .hero-section__desc {
     color: azure;
     text-align: justify;
-    width:100%;
+    width:80%;
 }
 
 .social-icon {
@@ -194,7 +198,7 @@ ul.social-icon {
     width: 280px;
     border-radius: 50%;
     border: 4px solid var(--primary);
-    box-shadow: 5px 5px 40px var(--primary);
+    box-shadow: 3px 3px 25px var(--primary);
 }
 
 .about-section-desc {
