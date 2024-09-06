@@ -23,7 +23,8 @@ body {
 }
 
 header {
-    background-color: var(--dark-primary);
+    /* background-color: var(--dark-primary); */
+    background-color: #070c1a;
     padding: 10px 20px;
     color: white;
     display: flex;
@@ -113,15 +114,17 @@ section.hero-section {
 .hero-section__desc {
     color: azure;
     text-align: justify;
-    width:80%;
+    width:90%;
 }
 
 .social-icon {
-    margin: 20px 0;
+    margin: 25px 0;
+
 }
 
 .social-icon li {
     margin-right: 20px;
+    font-size:20px;
 }
 
 ul.social-icon {
@@ -148,7 +151,7 @@ ul.social-icon {
 
 .btn {
     padding: 10px 20px;
-    border-radius: 2px;
+    border-radius:2px;
     border: none;
     cursor: pointer;
 }
@@ -169,7 +172,7 @@ ul.social-icon {
     color: var(--primary);
     border-radius: 5px;
     font-weight: 600;
-    box-shadow: 3px 3px 3px var(--primary);
+    box-shadow: 2px 2px 2px var(--primary);
 }
 
 .btn.dark-outline:hover {
@@ -375,6 +378,7 @@ footer p a {
  }
  section.hero-section img{
     display: none;
+    
  }
  .hero-section__desc {
     color: azure;
@@ -386,9 +390,14 @@ footer p a {
  section.about-section{
     flex-direction: column;
  }
+ .about-section-desc h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
  .about-section-desc{
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 60px;
+    width:112%;
 
  }
  /* my works */
