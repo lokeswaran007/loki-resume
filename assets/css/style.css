@@ -272,8 +272,8 @@ ul.social-icon {
 .work-setion-box {
     background-color: #22282f;
     padding: 30px;
-    max-width: 310px;
-    min-width: 310px;
+    /* max-width: 194px; */
+    min-width: 256px;
     text-align: left;
     border-radius: 20px;
     cursor: pointer;
@@ -361,7 +361,7 @@ footer p a {
 
 
 
-@media only screen and (max-width:780px){
+@media only screen and (max-width:768px){
     header{
         flex-direction: column;
     
@@ -412,7 +412,7 @@ footer p a {
  }
  .work-setion-box{
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
     margin-right:20px;
  }
  /* contact */
