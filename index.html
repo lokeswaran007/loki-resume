@@ -12,6 +12,31 @@
     <!-- styling css -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+
+<!-- email(contact-page) -->
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init('ZXiCxjcc6G7eqFIhV');//Public key
+
+        function sendEmail(event) {
+            event.preventDefault();
+            const form = event.target;
+
+            emailjs.sendForm('service_8axny8k', 'template_jmvp81n', event.target)//serviceid,templateid
+                .then((response) => {
+                    console.log('SUCCESS!', response);
+                
+                    alert('Your message has been sent successfully!');
+                    form.reset();
+                }, (error) => {
+                    console.log('FAILED...', error);
+                    alert('Failed to send your message. Please try again.');
+                });
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -87,7 +112,7 @@
                         <strong>Experience:</strong> Fresher
                     </li>
                     <li>
-                        <strong>Speciality:</strong> UI/UX Designer
+                        <strong>Speciality:</strong> Developer
                     </li>
                     <li>
                         <strong>Address:</strong> Chennai,Tamilnadu,India
@@ -149,7 +174,7 @@
             </div>
         </section>
 
-        <section class="Contact-section" id="contact-section">
+        <!-- <section class="Contact-section" id="contact-section">
             <h4>Contact <span>Me</span></h4>
             <form>
                 <div>
@@ -167,7 +192,29 @@
 
             </form>
 
+        </section> -->
+
+
+        <section class="Contact-section" id="contact-section">
+            <h4>Contact <span>Me</span></h4>
+            <form onsubmit="sendEmail(event)">
+                <div>
+                    <input type="text" name="user_name" placeholder="Full Name"
+                    required>
+                </div>
+                <div>
+                    <input type="text" name="user_subject" placeholder="What's The Matter?" required>
+                </div>
+                <div>
+                    <textarea name="user_message" rows="5" placeholder="Enter Briefly..." required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Send a message</button>
+                </div>
+            </form>
         </section>
+
+
 
     </main>
 
